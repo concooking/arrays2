@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("ЗАДАЧА 1");
-        int[] amountOfCosts = new int[]{200, 400, 300, 100, 500, 600};
+        int[] amountOfCosts = new int[]{200, 400, 100, 500, 600};
         int totalCosts = 0;
         for (int i = 0; i < amountOfCosts.length; i++) {
             totalCosts += amountOfCosts[i];
@@ -9,7 +9,7 @@ public class Main {
         System.out.println("«Сумма трат за месяц составила " + totalCosts + " рублей»");
         //Задача 2
         System.out.println("Задача 2");
-        int[] expenses = new int[]{200, 400, 300, 100, 500, 600};
+        int[] expenses = new int[]{200, 400, 100, 500, 600};
         int totalExpenses = 0;
         int minExpenses = expenses[0];
         int maxExpenses = expenses[0];
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Максимальная сумма трат за день составила " + maxExpenses + " рублей");
         // Задача 3
         System.out.println("Задача 3");
-        int[] expens = new int[] {200, 400, 300, 100, 500, 600};
+        int[] expens = new int[] {200, 400, 100, 500, 600};
         int sum = 0;
         for (int i = 0; i < expens.length; i++) {
             sum += expens[i];
